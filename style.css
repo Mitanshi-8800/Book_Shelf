@@ -1,0 +1,738 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,700;1,500;1,600;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    border: 7px solid #fff;
+    
+
+}
+.Book_Self_Dashboard_left{
+    background: #95A684;
+    width: 7%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:10px 0px 0px 10px  ;
+}
+.Book_Self_Dashboard_left_heading h4{
+    font-size: 1.3rem;
+    margin-top: 20px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    color: #fff;
+}
+.Book_Self_Dashboard_left_heading_Icons{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    margin-bottom: 20px;
+}
+.Book_Self_Dashboard_left_heading_Icons i{
+    font-size: 2rem ;
+    font-weight: bold;
+    color: #fff;
+}
+.Book_Self_Dashboard_left_heading_BottomIcon{
+    margin-bottom: 40px;
+}
+
+.Book_Self_Dashboard_Mid{
+    background:#fff;
+    width: 63%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.Book_Self_Dashboard_Mid_part1_search_button{
+    display: flex;
+    flex-direction: row; 
+    /* justify-content:space-around; */
+}
+
+.Book_Self_Dashboard_Mid_part1_search_button_Mainsection input{
+  width:700px ;
+  height: 40px;
+  border: 1px solid #BEBEBE;
+  border-radius:10px ;
+  box-shadow: 1px 1px 1px 0.3  gray;
+}
+.Book_Self_Dashboard_Mid_part1_search_button_Mainsection input::placeholder{
+    color: #BEBEBE;
+    padding-left: 20px;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: Poppins;
+}
+.Book_Self_Dashboard_Mid_part1_search_button img{
+  margin-left: 80px;
+  width: 25px;
+  height: 25px;
+  font-weight: bold;
+ 
+}
+.Book_Self_Dashboard_Mid_part1_search_button i{
+    margin-left: 90px;
+    margin-right: 35px;
+    margin-top: 5px;
+    font-size: 1.8rem;
+    color: #BEBEBE;
+}
+.Book_Self_Dashboard_Right{
+    background:#CDD5AE;
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+.Book_Self_Dashboard_Mid_part2{
+   height: 45%;
+   width: 93%;
+   
+}
+.Book_Self_Dashboard_Mid_part2_Book_Description_Bookdescription{
+   
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    
+    
+}
+.Book_Self_Dashboard_Mid_part2_Book_Description_Bookdescription_BookImg{
+    width: 25%;
+    height: 100%;
+    
+}
+.Book_Self_Dashboard_Mid_part2_Book_Description_Bookdescription_BookImg img{
+    width: 80%;
+    height: 100%;
+}
+.Book_Self_Dashboard_Mid_part2 h1{
+    color: #D3A373;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.Book_Self_Dashboard_Mid_part2 h3{
+    color: #1E1E1E;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 20px;
+}
+.Book_Self_Dashboard_Mid_part2_Book_Description{
+    width: 100%;
+    z-index: 3;
+    height: 240px;
+    box-shadow: -17px 16px 12px -8px rgba(0, 0, 0, 0.20);
+    border-radius: 16px 16px 93px 16px;
+    background: #CDD5AE;
+    margin-top: 10px;
+    position: relative;
+
+    
+}
+.Book_Self_Dashboard_Mid_part2_Book_Description img{
+    z-index: 2;
+    width: 100%;
+    height: 240px;
+}
+.Book_Self_Dashboard_Mid_part2_Book_Description_Bookdescription_BookDes{
+    width: 57%;
+    height: 95%;
+    
+}
+.Book_Self_Dashboard_Mid_part2_Book_Description_Bookdescription_BookDes H2{
+    color: #1E1E1E;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.702px;
+    margin: 0;
+}
+.Book_Self_Dashboard_Mid_part2_Book_Description_Bookdescription_BookDes h3{
+    color: #303030;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.74px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.Book_Self_Dashboard_Mid_part2_Book_Description_Bookdescription_BookDes p{
+    color: #303030;
+    font-family: Poppins;
+    font-size: 14.792px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.74px;
+    
+}
+.Book_Self_Dashboard_Mid_part2_Book_Description_Bookdescription_Bookmark{
+    width: 7%;
+    height: 85%;
+    display: flex;
+    justify-content: flex-start;
+}
+.Book_Self_Dashboard_Mid_part2_Book_Description_Bookdescription_Bookmark img{
+    width: 19px;
+    height: 25px;  
+}
+.Book_Self_Dashboard_Mid_part2_Book_Description_Bookdescription_BookDes_Rating{
+     display: flex;
+     flex-direction: row;
+     width: 250px;
+     height: 20px;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 5px;
+
+}
+.Book_Self_Dashboard_Mid_part2_Book_Description_Bookdescription_BookDes_Rating_star{
+     display: flex;
+     flex-direction: row;
+}
+.Book_Self_Dashboard_Mid_part2_Book_Description_Bookdescription_BookDes_Rating_star i{
+    color: goldenrod;
+    margin-right: 5px;
+}
+.Book_Self_Dashboard_Mid_part2_Book_Description_Bookdescription_BookDes_Rating_star p{
+    color: #747474;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 5px;
+}
+.Book_Self_Dashboard_Mid_part2_Book_Description_Bookdescription_BookDes_Rating h4{
+    border-radius: 16px;
+    color: #FEFADF;
+    font-size: 1rem;
+}
+
+
+.Book_Self_Dashboard_Mid_part2_Book_Description_Bookdescription_BookDes_Rating h5{
+    color: #303030;
+    font-family: Poppins;
+    font-size: 14.79px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Book_Self_Dashboard_Mid_part3{
+    display: flex;
+    flex-direction: column;
+    width:93%;
+    height: 37%;
+    /* border: 1px solid black; */
+}
+.Book_Self_Dashboard_Mid_part3_Continue_heading{
+    color: #303030;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+.Book_Self_Dashboard_Mid_part3_book_Craousel{
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    height: 95%;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+.Book_Self_Dashboard_Mid_part3_book_Craousel_1{
+    display: flex;
+    flex-direction:column;
+    width:20%;
+    height: 100%;
+    /* border: 1px solid black; */
+    margin: 0px 5px 5px 5px;
+}
+.Book_Self_Dashboard_Mid_part3_book_Craousel_1 img{
+    height: 170px;
+    width: 140px;
+    margin-left: 10px;
+   
+}
+.Book_Self_Dashboard_Mid_part3_book_Craousel_1 h4{
+    color: #303030;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 0.9rem;
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.935px;
+    text-transform: capitalize;
+}
+.Book_Self_Dashboard_Mid_part3_book_Craousel_1 h4 span{
+    color: #303030;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1rem;
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.935px;
+    text-transform: capitalize;
+}
+
+.Book_Self_Dashboard_Mid_part3_book_Craousel_1 svg{
+    margin-left: 30px;
+    margin-bottom: 3px;
+}
+.Book_Self_Dashboard_Mid_part3_book_Craousel_1 p{
+    color: #303030;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14.792px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.74px;
+}
+.Book_Self_Dashboard_Mid_part4{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    width: 93%;
+    height: 17%;
+    justify-content: space-between;
+    align-items: center;
+}
+.Book_Self_Dashboard_Mid_part4_Schedule{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    height: 90%;
+    /* border: 1px solid black; */
+    
+}
+.Book_Self_Dashboard_Mid_part4_Schedule_Heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.Book_Self_Dashboard_Mid_part4_Schedule_Heading h1{
+    color: #1E1E1E;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.59px;
+    text-align: left;
+    width: 100%;
+}
+.Book_Self_Dashboard_Mid_part4_Schedule_Days{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Book_Self_Dashboard_Mid_part4_Schedule_Days_name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.Book_Self_Dashboard_Mid_part4_Schedule_Days_name h5{
+    color: #5C5C5C;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.122px;
+}
+.Book_Self_Dashboard_Mid_part4_Schedule_Days_name_1 h5{
+    color: #D3A373;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.122px;
+}
+.Book_Self_Dashboard_Mid_part4_Schedule_Days_name_1 p{
+    color: #D3A373;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.122px;
+}
+#Book_Self_Dashboard_Mid_part4_Schedule_Days_name_Thr{
+    border-radius: 43px;
+    background: #EEE;
+    width: 50px;
+    height: 70px;
+}
+.Book_Self_Dashboard_Mid_part4_Schedule_Days_name h5:hover{
+    color: #D3A373;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.122px;
+}
+.Book_Self_Dashboard_Mid_part4_Shell_Member {
+   
+    position: relative;
+    margin-left: 90px;
+}
+.Book_Self_Dashboard_Mid_part4_Shell_Member img  {
+    margin-left:0px;
+    position:absolute;
+    
+}
+
+
+
+.Book_Self_Dashboard_Mid_part4_Schedule_Days_name P{
+    color: #5C5C5C;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.122px;
+}
+
+.Book_Self_Dashboard_Mid_part4_Schedule_Heading i{
+     font-size: 1.5rem;
+     font-weight: 600;
+}
+
+.Book_Self_Dashboard_Mid_part4_Shell_Member {
+  width: 40%;
+  height: 100%;
+  position: relative;
+
+}
+.Book_Self_Dashboard_Mid_part4_Shell_Member img {
+    width: 100%;
+    height: 100%;
+    
+}
+.Book_Self_Dashboard_Mid_part4_Shell_Member_text{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.Book_Self_Dashboard_Mid_part4_Shell_Member_text_Buuton{
+    width: 190px;
+    height: 55px;
+    border-radius: 10px;
+    border: 1.5px solid #FEFADF;
+    margin-left: 5px;
+}
+.Book_Self_Dashboard_Mid_part4_Shell_Member_text_Buuton p{
+    color: #FEFADF;
+    font-family: Poppins;
+    font-size: 15.834px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 122.5%; /* 19.397px */
+    letter-spacing: 0.792px;
+    padding-top: 7px;
+    padding-left: 8px;
+}
+.Book_Self_Dashboard_Mid_part4_Shell_Member_text h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22.049px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.252px;
+}
+
+.Book_Self_Dashboard_Right img{
+
+ z-index: 3;
+}
+.Book_Self_Dashboard_Right_Text{
+ position: absolute;
+ top: 0;
+ left: 0;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ width: 100%;
+ height: 100%;
+ 
+ 
+}
+.Book_Self_Dashboard_Right_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 10%;
+    position: relative;
+}
+.Book_Self_Dashboard_Right_1 h3{
+    color: #1E1E1E;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 33.942px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 20px;
+}
+.Book_Self_Dashboard_Right_1 img{
+    margin-right: 20px;
+}
+.Book_Self_Dashboard_Right img .vector{
+    position: absolute;
+    
+}
+
+.Book_Self_Dashboard_Right_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 20%;
+    position: relative;
+    
+}
+.Book_Self_Dashboard_Right_2 img{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.Book_Self_Dashboard_Right_2_text{
+    position: absolute;
+    top: 50%; /* Move the text down by 50% of the container's height */
+    left: 70%; /* Move the text right by 50% of the container's width */
+    transform: translate(-50%, -50%);
+}
+.Book_Self_Dashboard_Right_3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    width: 100%;
+    height: 60%;
+}
+.Book_Self_Dashboard_Right_3 img{
+    width: 45%;
+    height: 50%;
+    margin-left: 30%;
+    box-shadow: -40px 40px 160px 0px rgba(0, 0, 0, 0.50);
+}
+.Book_Self_Dashboard_Right_3 h6{
+    color: #1E1E1E;
+    font-family: Poppins;
+    font-size: 17.257px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 30%;
+}
+.Book_Self_Dashboard_Right_3_Rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 120px;
+    height: 20px;
+    margin-left:37%;
+}
+.Book_Self_Dashboard_Right_3_Rating i {
+    color: goldenrod;
+    stroke-width: 0.5px;
+    stroke: #F5F5F5;
+    gap: 2px;
+}
+.Book_Self_Dashboard_Right_3_Rating p.Rating{
+    color: #FFF;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 15.942px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Book_Self_Dashboard_Right_3 p{
+    color: #1E1E1E;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20px;
+}
+
+.Book_Self_Dashboard_Right_3_reviews{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 286px;
+    height: 62px;
+    /* border: 1px solid black; */
+    margin-left: 25%;
+}
+.Book_Self_Dashboard_Right_3_reviews_1{
+    display: flex;
+    flex-direction: Column;
+    justify-content: space-between;
+    align-items: center;
+}
+.Book_Self_Dashboard_Right_3_reviews_1 h4{
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 28.043px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Book_Self_Dashboard_Right_3_reviews_1_rect{
+    width: 4px;
+    height: 50px;
+    border-radius: 14px;
+    background: #FAEDCD;
+}
+.Book_Self_Dashboard_Right_3_reviews_1 p{
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+.Book_Self_Dashboard_Right_4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 15%;
+}
+.Book_Self_Dashboard_Right_4_Buttons{
+    display: flex;
+    flex-direction: Row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+   /* border: 1px solid black; */
+    
+}
+.Book_Self_Dashboard_Right_4_Buttons_start{
+   width: 60%;
+   height: 90%;
+  
+}
+.Book_Self_Dashboard_Right_4_Buttons_start button{
+    width: 90%;
+    margin-left: 20px;
+    height: 100%;
+    border-radius: 49.833px;
+    border: 0.958px solid rgba(255, 255, 255, 0.80);
+    background: #FAEDCD;
+    color: #1E1E1E;
+    font-family: Poppins;
+    font-size: 21.82px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 5px;
+    
+
+ }
+ .Book_Self_Dashboard_Right_4_Buttons_start button i{
+    color: #D3A373;
+    font-weight: 10px;
+    rotate: 10deg;
+ }
+ .Book_Self_Dashboard_Right_4_Buttons_save{
+    width: 38%;
+    height: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 5px;
+ }
+ .Book_Self_Dashboard_Right_4_Dots svg{
+   float: left;
+}
+.Book_Self_Dashboard_Right_4_Buttons_save_1 {
+    width: 50.342px;
+    height: 50.78px;
+    background: #FAEDCD;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+.Book_Self_Dashboard_Right_4_Buttons_save_1 i {
+     color: #D3A373;
+     font-weight: bold;
+}
